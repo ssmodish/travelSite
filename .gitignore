@@ -27,3 +27,11 @@ nbproject
 .komodotools
 _notes
 dwsync.xml
+/.bin/node.cmd
+/packages/Node.js.5.3.0/content/.bin/node.cmd
+/packages/Node.js.5.3.0/tools/bin_tools.ps1
+/packages/Node.js.5.3.0/tools/uninstall.ps1
+/packages/Node.js.5.3.0/tools/install.ps1
+/packages/Node.js.5.3.0
+/node.cmd
+/packages.config
