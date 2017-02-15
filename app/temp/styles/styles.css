@@ -936,6 +936,7 @@ a {
   background-color: rgba(255, 255, 255, .8);
   padding: 0 18px 1px 18px;
   margin-bottom: 98px;
+  opacity: 0;
 }
 
 @media (min-width: 1010px) {
@@ -1314,4 +1315,18 @@ a {
     padding: 12px 0;
     background-color: transparent;
   }
+}
+
+.reveal-item {
+    opacity: 0;
+    -webkit-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+}
+
+.reveal-item--is-visible {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
